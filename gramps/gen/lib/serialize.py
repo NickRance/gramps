@@ -68,6 +68,8 @@ def __object_hook(obj_dict):
 
 def to_json(obj):
     """
+    NOTE: Encodes JSON to Single Quotes when using the JSON Export addon
+    Link: https://github.com/gramps-project/addons-source/blob/master/JSON/JSONExport.py
     Encode a Gramps object in JSON format.
 
     :param obj: The object to be serialized.
